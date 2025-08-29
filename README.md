@@ -87,7 +87,7 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 │       │   ├── Application/     # Casos de uso, CQRS, validações
 │       │   ├── Domain/          # Entidades, agregados, repositórios (interfaces)
 │       │   ├── Infrastructure/  # EF Core, Dapper, acesso a dados, serviços externos
-│       │   └── WebApi/          # Controllers, middlewares, autenticação JWT
+│       │   └── Api/             # Controllers, middlewares, autenticação JWT
 │       ├── tests/               # Testes unitários e de integração
 │       └── Articly.sln
 │
