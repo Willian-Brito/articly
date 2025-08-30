@@ -156,75 +156,23 @@ Abaixo está um resumo das etapas executadas em cada build:
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/defectdojo.png" />
 </div>
 
-## 🔧 Instalação
->Se você deseja executar o projeto localmente sem o uso de containers, siga as instruções abaixo.
-Caso prefira utilizar Docker, vá diretamente para a seção "Como executar o projeto".
-
-1. **Pré-requisitos**: 
-   - Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-    [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), [PostgreSQL](https://www.postgresql.org/download/) e [MongoDB](https://www.mongodb.com/try/download/community). 
-    Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
-
-2. **Configuração do Banco de Dados**:
-   - Configure o PostgreSQL e MongoDB, criando as bases de dados necessárias.
-   - Atualize as strings de conexão no arquivo de configuração da aplicação.
-
-3. **Instalando as Dependências**:
-   ```bash
-   $ dotnet restore
-    ```
-
 ## 🚀 Como executar o projeto
-
-> **Requisito:** É necessário ter o docker instalado em seu sistema operacional (Linux, Windows ou Mac)
-
-Este projeto é divido em duas partes:
-1. Backend ([Server](https://github.com/Willian-Brito/aiko-learning-server)) 
-2. Frontend ([Client](https://github.com/Willian-Brito/articly))
-
-#### 🛜 Criar Rede Docker
-```bash
-# Criar rede aiko-network para comunicação do front-end e back-end
-$ docker network create aiko-network
-
-# Verificando se a rede foi criada corretamente
-$ docker network ls
-```
-
-#### 🖥 Rodando o Backend
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/Willian-Brito/aiko-learning-server
-
-# Vá para a pasta server
-$ cd aiko-learning-server
-
-# Criar rede aiko-network para comunicação do front-end e back-end
-$ docker network create aiko-network
-
-# Execute o docker compose
-$ docker-compose up --build
-
-# O servidor inciará na porta:5066 - acesse http://localhost:5066/swagger/index.html
-```
-
-> Certifique-se de que as portas **5432 (PostgreSQL)** e **27017 (MongoDB)** não estejam sendo utilizadas por outros serviços em sua máquina local.
-
-#### 🌐 Rodando o Frontend
 
 ```bash
 # Clone este repositório
 $ git clone https://github.com/Willian-Brito/articly
 
-# Vá para a pasta da aplicação Front End
+# Vá para a pasta server
 $ cd articly
 
 # Execute o docker compose
 $ docker-compose up --build
 
+# O servidor inciará na porta:5066 - acesse http://localhost:5066/swagger/index.html
 # A aplicação será aberta na porta:8081 - acesse http://localhost:8081
 ```
+
+> Certifique-se de que as portas **5432 (PostgreSQL)** e **27017 (MongoDB)** não estejam sendo utilizadas por outros serviços em sua máquina local.
 
 #### ✅ Executando os Testes do Backend
 ```bash
@@ -244,7 +192,7 @@ $ docker-compose up --build
 
 #### Demo
 <div align="center">
-  <img src="https://github.com/Willian-Brito/articly/blob/main/src/assets/gif/demo.gif?raw=true" alt="demo" />
+  <img src="https://github.com/Willian-Brito/articly/blob/main/docs/prints/demo.gif?raw=true" alt="demo" />
 </div>
 
 #### Login
