@@ -3,7 +3,7 @@
 [![Continuous Integration](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml/badge.svg)](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/logo.png" alt="logo" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/logo.png" alt="logo" />
 </div>
 
 ## 💻 Sobre o projeto
@@ -73,7 +73,7 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 │   │   ├── src/                 
 │   │   │   ├── assets/          # Imagens, ícones, fontes
 │   │   │   ├── components/      # Componentes Vue reutilizáveis
-│   │   │   ├── layouts/         # Layouts (Sidebar, Navbar, DashboardLayout etc.)
+│   │   │   ├── template/        # Layouts (Sidebar, Navbar, DashboardLayout etc.)
 │   │   │   ├── pages/           # Páginas (Login, Home, Articles, Categories etc.)
 │   │   │   ├── router/          # Configuração do Vue Router
 │   │   │   ├── store/           # Vuex/Pinia (gerenciamento de estado)
@@ -86,15 +86,13 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 │       ├── src/
 │       │   ├── Application/     # Casos de uso, CQRS, validações
 │       │   ├── Domain/          # Entidades, agregados, repositórios (interfaces)
-│       │   ├── Infrastructure/  # EF Core, Dapper, acesso a dados, serviços externos
+│       │   ├── Infrastructure/  # EF Core, Dapper, acesso a dados, Jobs, Segurança, serviços externos
+│       │   ├── Tests/           # Testes unitários e de integração
 │       │   └── Api/             # Controllers, middlewares, autenticação JWT
-│       ├── tests/               # Testes unitários e de integração
 │       └── Articly.sln
 │
 ├── docs/                    # Documentação (arquitetura, ADRs, manuais de dev)
-├── scripts/                 # Scripts de automação (build, deploy, migrations etc.)
 ├── .github/workflows/       # CI/CD (actions para build, testes e deploy)
-├── docker/                  # Dockerfiles e configs específicas de containers
 ├── docker-compose.yml       # Subir frontend + backend juntos localmente
 ├── 📄 README.md
 └── ©️ LICENSE
@@ -150,12 +148,12 @@ Abaixo está um resumo das etapas executadas em cada build:
 
 #### 🛠️ Secure Pipeline
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/secure-pipeline.jpeg" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/secure-pipeline.jpeg" />
 </div>
 
 #### 📊 Dashboard no DefectDojo
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/defectdojo.png" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/defectdojo.png" />
 </div>
 
 ## 🔧 Instalação
@@ -182,7 +180,7 @@ Caso prefira utilizar Docker, vá diretamente para a seção "Como executar o pr
 
 Este projeto é divido em duas partes:
 1. Backend ([Server](https://github.com/Willian-Brito/aiko-learning-server)) 
-2. Frontend ([Client](https://github.com/Willian-Brito/aiko-learning-client))
+2. Frontend ([Client](https://github.com/Willian-Brito/articly))
 
 #### 🛜 Criar Rede Docker
 ```bash
@@ -217,10 +215,10 @@ $ docker-compose up --build
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Willian-Brito/aiko-learning-client
+$ git clone https://github.com/Willian-Brito/articly
 
 # Vá para a pasta da aplicação Front End
-$ cd aiko-learning-client
+$ cd articly
 
 # Execute o docker compose
 $ docker-compose up --build
@@ -234,66 +232,66 @@ $ docker-compose up --build
 ```
 **VS Code**
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/vs-code-tests.png" alt="vs code" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/vs-code-tests.png" alt="vs code" />
 </div>
 
 **Terminal**
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/terminal-tests.png" alt="terminal" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/terminal-tests.png" alt="terminal" />
 </div>
 
 ## 🎨 Layout 
 
 #### Demo
 <div align="center">
-  <img src="https://github.com/Willian-Brito/aiko-learning-client/blob/main/src/assets/gif/demo.gif?raw=true" alt="demo" />
+  <img src="https://github.com/Willian-Brito/articly/blob/main/src/assets/gif/demo.gif?raw=true" alt="demo" />
 </div>
 
 #### Login
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/login-dark.png" alt="login" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/login-dark.png" alt="login" />
 </div>
 
 #### Registrar
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/register-dark.png" alt="registrar usuário" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/register-dark.png" alt="registrar usuário" />
 </div>
 
 #### Home
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/home-dark.png" alt="home do sistema" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/home-dark.png" alt="home do sistema" />
 </div>
 
 #### Perfil
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/profile-dark.png" alt="listagem de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/profile-dark.png" alt="listagem de artigos" />
 </div>
 
 #### Listagem de Artigos
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/articles-dark.png" alt="listagem de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/articles-dark.png" alt="listagem de artigos" />
 </div>
 
 #### Gestão de Artigos
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/admin-articles-dark.png" alt="gestão de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/admin-articles-dark.png" alt="gestão de artigos" />
 </div>
 
 #### Chat
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/chat-dark.png" alt="chat em tempo real" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/chat-dark.png" alt="chat em tempo real" />
 </div>
 
 #### Swagger: Rotas do Backend
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/aiko-learning-client/refs/heads/main/src/assets/prints/swagger.png" alt="rotas do backend" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/swagger.png" alt="rotas do backend" />
 </div>
 
 ## 📝 Licença

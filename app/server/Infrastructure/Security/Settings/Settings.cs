@@ -3,8 +3,8 @@ namespace Articly.Infrastructure.Security.Configuration;
 public static class Settings
 {
     public static readonly string SECRET_KEY = "%abra#cadabra$sim@salabim*2023|%abra#cadabra$sim@salabim*2023|123456789";
-    public static readonly string ISSUER = "aiko.digital";
-    public static readonly string AUDIENCE = "http://aiko.digital/";
+    public static readonly string ISSUER = "articly.dev";
+    public static readonly string AUDIENCE = "http://articly.dev/";
     public static readonly string USER_ID_KEY = "UserId";
     public static readonly string EMAIL_KEY = "EmailKey";
     public static string SESSION_TOKEN_COOKIE = "authorization-token";

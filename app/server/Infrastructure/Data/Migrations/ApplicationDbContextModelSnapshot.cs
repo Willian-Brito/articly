@@ -379,7 +379,7 @@ namespace Data.Migrations
                             ID = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CreatedBy = "1",
-                            Email = "wbrito@aiko.digital",
+                            Email = "wbrito@articly.dev",
                             Name = "Willian Brito",
                             Password = "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK",
                             Roles = new[] { 0 }

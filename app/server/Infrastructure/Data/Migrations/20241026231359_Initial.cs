@@ -134,7 +134,7 @@ namespace Data.Migrations
             migrationBuilder.InsertData(
                 table: "users",
                 columns: new[] { "id", "created_by", "deleted_at", "deleted_by", "email", "name", "password", "roles", "updated_at", "updated_by" },
-                values: new object[] { 1, "1", null, null, "wbrito@aiko.digital", "Willian Brito", "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", new[] { 0 }, null, null });
+                values: new object[] { 1, "1", null, null, "wbrito@articly.dev", "Willian Brito", "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", new[] { 0 }, null, null });
 
             migrationBuilder.InsertData(
                 table: "categories",

@@ -3,7 +3,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
-    container_name: aiko-learning-vue
+    container_name: articly-client
     ports:
       - "8081:80"
     networks:

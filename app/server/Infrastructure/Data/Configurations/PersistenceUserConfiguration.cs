@@ -31,7 +31,7 @@ public class PersistenceUserConfiguration : IEntityTypeConfiguration<Users>
                 id: 1,
                 name: "Willian Brito",
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> {Role.Administrator},
                 createdBy: "1"
             )

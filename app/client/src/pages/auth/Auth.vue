@@ -7,7 +7,7 @@
                 <div class="app-brand justify-content-center">
                 <a href="index.html" class="app-brand-link gap-2">
                     <span class="app-brand-logo demo">
-                        <img :src="getLogo" width="120" alt="Logo da Aiko">
+                        <img :src="getLogo" width="120" alt="Logo do articly">
                     </span>                  
                 </a>
                 </div>

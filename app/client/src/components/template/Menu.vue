@@ -15,7 +15,7 @@
         <span class="app-brand-logo demo">
           <img 
             :src="getLogo" 
-            :style="logoStyle" alt="logo da aiko">
+            :style="logoStyle" alt="logo da articly">
         </span>
       </router-link>
 

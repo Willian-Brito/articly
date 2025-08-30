@@ -20,10 +20,10 @@
                                     </template>
                                     <template v-else>
                                         <div class="flex-shrink-0 avatar">
-                                            <img src="@/assets/images/aiko-support.png" alt="Avatar" data-bs-toggle="sidebar" data-overlay="" data-target="#app-chat-sidebar-right" class="rounded-circle">
+                                            <img src="@/assets/images/articly-support.png" alt="Avatar" data-bs-toggle="sidebar" data-overlay="" data-target="#app-chat-sidebar-right" class="rounded-circle">
                                         </div>
                                         <div class="chat-contact-info flex-grow-1 ms-4">
-                                            <h6 class="m-0 fw-normal">Aiko Digital</h6>
+                                            <h6 class="m-0 fw-normal">Articly</h6>
                                             <small class="user-status text-body">Support Chat</small>
                                         </div>
                                     </template>

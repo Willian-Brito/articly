@@ -18,7 +18,7 @@ public class UserUnitTest
                 id: -1,
                 name: "Willian Brito",
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -38,7 +38,7 @@ public class UserUnitTest
                 id: 1,
                 name: "Willian Brito",
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -57,7 +57,7 @@ public class UserUnitTest
                 id: 1,
                 name: "Wi",
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -75,7 +75,7 @@ public class UserUnitTest
                 id: 1,
                 name: "",
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -93,7 +93,7 @@ public class UserUnitTest
                 id: 1,
                 name: null,
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -115,7 +115,7 @@ public class UserUnitTest
                 id: 1,
                 name: name,
                 password: "$2a$11$R2rPEl2L7dEOo7fjUVA4CeySrz/a03JmNhJCglJRHnRlYzD8RRtFK", 
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator }
             );
 
@@ -140,7 +140,7 @@ public class UserUnitTest
                 name: "Willian Brito",
                 password: "",
                 confirmPassword: "123456",
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator },
                 mockUserService.Object
             );
@@ -164,7 +164,7 @@ public class UserUnitTest
                 name: "Willian Brito",
                 password: null,
                 confirmPassword: "123456",
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator },
                 mockUserService.Object
             );
@@ -190,7 +190,7 @@ public class UserUnitTest
                 name: "Willian Brito",
                 password: "123456",
                 confirmPassword: "",
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator },
                 mockUserService.Object
             );
@@ -214,7 +214,7 @@ public class UserUnitTest
                 name: "Willian Brito",
                 password: "123456",
                 confirmPassword: null,
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator },
                 mockUserService.Object
             );
@@ -240,7 +240,7 @@ public class UserUnitTest
                 name: "Willian Brito",
                 password: "123456",
                 confirmPassword: "12345",
-                email: "wbrito@aiko.digital",
+                email: "wbrito@articly.dev",
                 roles: new List<Role> { Role.Administrator },
                 mockUserService.Object
             );

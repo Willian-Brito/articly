@@ -21,7 +21,7 @@
               <ul class="navbar-nav flex-row align-items-center ms-auto">
 
                 <div class="d-flex">
-                    <div class="btn-menu" @click="openLink('https://github.com/Willian-Brito/aiko-learning-client')">
+                    <div class="btn-menu" @click="openLink('https://github.com/Willian-Brito/articly')">
                         <i class='bx bxl-github'></i>                        
                     </div>                    
                     <div class="btn-menu">
