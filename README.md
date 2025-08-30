@@ -168,8 +168,8 @@ $ cd articly
 # Execute o docker compose
 $ docker-compose up --build
 
-# O servidor inciará na porta:5066 - acesse http://localhost:5066/swagger/index.html
-# A aplicação será aberta na porta:8081 - acesse http://localhost:8081
+# Backend - http://localhost:5066/swagger/index.html
+# Frontend - http://localhost:8081
 ```
 
 > Certifique-se de que as portas **5432 (PostgreSQL)** e **27017 (MongoDB)** não estejam sendo utilizadas por outros serviços em sua máquina local.
