@@ -5,13 +5,13 @@ FROM node:8-alpine AS build
 WORKDIR /app
 
 # Copiar os arquivos 'package.json' e 'package-lock.json' (ou 'yarn.lock')
-COPY package*.json ./
+COPY app/client/package*.json ./
 
 # Instalar as dependências do projeto
 RUN npm install
 
 # Copiar os arquivos do projeto para o diretório de trabalho
-COPY . .
+COPY app/client .
 
 # Construir o aplicativo para produção
 RUN npm run build
