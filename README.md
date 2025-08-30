@@ -66,7 +66,7 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 
 ```
 📦 articly
-├── app/
+├── 📱app/
 │   │
 │   ├── 🌐 client/               # Aplicação Vue.js
 │   │   ├── public/              # Arquivos estáticos (favicon, index.html base etc.)
@@ -91,9 +91,9 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 │       │   └── Api/             # Controllers, middlewares, autenticação JWT
 │       └── Articly.sln
 │
-├── docs/                    # Documentação (arquitetura, ADRs, manuais de dev)
-├── .github/workflows/       # CI/CD (actions para build, testes e deploy)
-├── docker-compose.yml       # Subir frontend + backend juntos localmente
+├── 📘 docs/                    # Documentação (arquitetura, ADRs, manuais de dev)
+├── 🔀 .github/workflows/       # CI/CD (actions para build, testes e deploy)
+├── 📄 docker-compose.yml       # Subir frontend + backend juntos localmente
 ├── 📄 README.md
 └── ©️ LICENSE
 ```
