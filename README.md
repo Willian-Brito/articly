@@ -174,7 +174,7 @@ $ docker-compose up --build
 
 > Certifique-se de que as portas **5432 (PostgreSQL)** e **27017 (MongoDB)** não estejam sendo utilizadas por outros serviços em sua máquina local.
 
-#### ✅ Executando os Testes do Backend
+#### 🧪 Executando os Testes do Backend
 ```bash
  $  dotnet test
 ```
@@ -190,48 +190,48 @@ $ docker-compose up --build
 
 ## 🎨 Layout 
 
-#### Demo
+#### 🖥️ Demo
 <div align="center">
   <img src="https://github.com/Willian-Brito/articly/blob/main/docs/prints/demo.gif?raw=true" alt="demo" />
 </div>
 
-#### Login
+#### 🖥️ Login
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/login-dark.png" alt="login" />
 </div>
 
-#### Registrar
+#### 🖥️ Registrar
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/register-dark.png" alt="registrar usuário" />
 </div>
 
-#### Home
+#### 🖥️ Home
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/home-dark.png" alt="home do sistema" />
 </div>
 
-#### Perfil
+#### 🖥️ Perfil
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/profile-dark.png" alt="listagem de artigos" />
 </div>
 
-#### Listagem de Artigos
+#### 🖥️ Listagem de Artigos
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/articles-dark.png" alt="listagem de artigos" />
 </div>
 
-#### Gestão de Artigos
+#### 🖥️ Gestão de Artigos
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/admin-articles-dark.png" alt="gestão de artigos" />
 </div>
 
-#### Chat
+#### 🖥️ Chat
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/chat-dark.png" alt="chat em tempo real" />
 </div>
