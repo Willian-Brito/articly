@@ -3322,11 +3322,13 @@ textarea.form-control-lg {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.375;
-  color: #384551;
+  /* color: #384551; */
+  color: var(--bs-text);
   text-align: center;
   white-space: nowrap;
   background-color: transparent;
-  border: var(--bs-border-width) solid #ced1d5;
+  /* border: var(--bs-border-width) solid #ced1d5; */
+  border: var(--bs-border-width) solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
 }
 

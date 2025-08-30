@@ -76,13 +76,11 @@ export default {
     ...mapState(['currentTheme', 'treeFilter', 'isMobile']),
     logoStyle() {
       return this.close
-        ? {
-            width: '50px',
+        ? {            
             height: '25px',
             transition: 'all 0.3s ease',
           }
-        : {
-            width: '80px',
+        : {            
             height: '40px',
             transition: 'all 0.3s ease',
           };
@@ -217,7 +215,7 @@ export default {
     }
 
     .layout-menu.menu-vertical.menu.bg-menu-theme.close:hover .app-brand .demo img{
-      width: 80px !important;
+      /* width: 80px !important; */
       height: 40px !important;
     }
 
