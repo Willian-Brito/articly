@@ -3,7 +3,7 @@
 [![Continuous Integration](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml/badge.svg)](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/logo.png" alt="logo" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/logo.png" alt="logo" />
 </div>
 
 ## 💻 Sobre o projeto
@@ -62,7 +62,7 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
 - 💬 **Chat**
   - [x] Chat em tempo real
 
-## 🧩 Arquitetura
+## 📁 Estrutura de Pastas
 
 ```
 📦 articly
@@ -148,12 +148,12 @@ Abaixo está um resumo das etapas executadas em cada build:
 
 #### 🛠️ Secure Pipeline
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/secure-pipeline.jpeg" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/secure-pipeline.jpeg" />
 </div>
 
 #### 📊 Dashboard no DefectDojo
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/defectdojo.png" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/defectdojo.png" />
 </div>
 
 ## 🔧 Instalação
@@ -232,12 +232,12 @@ $ docker-compose up --build
 ```
 **VS Code**
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/vs-code-tests.png" alt="vs code" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/vs-code-tests.png" alt="vs code" />
 </div>
 
 **Terminal**
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/terminal-tests.png" alt="terminal" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/terminal-tests.png" alt="terminal" />
 </div>
 
 ## 🎨 Layout 
@@ -250,48 +250,48 @@ $ docker-compose up --build
 #### Login
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/login-dark.png" alt="login" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/login-dark.png" alt="login" />
 </div>
 
 #### Registrar
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/register-dark.png" alt="registrar usuário" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/register-dark.png" alt="registrar usuário" />
 </div>
 
 #### Home
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/home-dark.png" alt="home do sistema" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/home-dark.png" alt="home do sistema" />
 </div>
 
 #### Perfil
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/profile-dark.png" alt="listagem de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/profile-dark.png" alt="listagem de artigos" />
 </div>
 
 #### Listagem de Artigos
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/articles-dark.png" alt="listagem de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/articles-dark.png" alt="listagem de artigos" />
 </div>
 
 #### Gestão de Artigos
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/admin-articles-dark.png" alt="gestão de artigos" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/admin-articles-dark.png" alt="gestão de artigos" />
 </div>
 
 #### Chat
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/chat-dark.png" alt="chat em tempo real" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/chat-dark.png" alt="chat em tempo real" />
 </div>
 
 #### Swagger: Rotas do Backend
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/src/assets/prints/swagger.png" alt="rotas do backend" />
+  <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/swagger.png" alt="rotas do backend" />
 </div>
 
 ## 📝 Licença
