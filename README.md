@@ -1,6 +1,6 @@
 # 📚 Articly
 
-[![Continuous Integration](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml/badge.svg)](https://github.com/Willian-Brito/aiko-learning-server/actions/workflows/ci.yaml)
+[![Continuous Integration](https://github.com/Willian-Brito/articly/actions/workflows/ci.yaml/badge.svg)](https://github.com/Willian-Brito/articly/actions/workflows/ci.yaml)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Willian-Brito/articly/refs/heads/main/docs/prints/logo.png" alt="logo" />

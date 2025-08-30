@@ -358,11 +358,13 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: trivy-server.sarif
+          category: 'trivy-server'
   
       - name: Upload Trivy SARIF to GitHub Security - Client
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: trivy-client.sarif
+          category: 'trivy-client'
 
       - name: Run DefectDojo Integration     
         if: always()   
