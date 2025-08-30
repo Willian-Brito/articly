@@ -276,6 +276,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Listing (Debug)
+        run: ls -la
+
       # Backend (server)
       - name: Build Server Docker Image
         run: |
