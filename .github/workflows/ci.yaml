@@ -283,7 +283,7 @@ jobs:
       - name: Build Server Docker Image
         run: |
           docker build -t ${{ vars.DOCKERHUB_REPOSITORY }}/articly-server:${{ env.version }} \
-            -f app/server/Dockerfile .
+            -f app/server/Presentation/Api/Dockerfile .
 
       # Frontend (client)
       - name: Build Client Docker Image
