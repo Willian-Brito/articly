@@ -366,7 +366,7 @@ jobs:
           sarif_file: trivy-client.sarif
           category: 'trivy-client'
 
-      - name: Run DefectDojo Integration - Upload Trivy Server Report
+      - name: Run DefectDojo Integration
         if: always()   
         uses: willian-brito/defect-dojo-action@main
         with:
@@ -375,22 +375,6 @@ jobs:
           source_url: https://github.com/willian-brito/${{ github.event.repository.name }}
           tool: Trivy
           file: trivy-server.sarif
-          scan_type: SARIF
-          product_name: ${{ github.event.repository.name }}
-          description: "Projeto de teste no DefectDojo"
-          origin: "third party library"
-          token: ${{ secrets.DEFECTDOJO_TOKEN }}
-
-
-      - name: Run DefectDojo Integration - Upload Trivy Client Report
-        if: always()   
-        uses: willian-brito/defect-dojo-action@main
-        with:
-          url_base: '${{ secrets.DEFECTDOJO_API }}/api/v2/'
-          username: admin
-          source_url: https://github.com/willian-brito/${{ github.event.repository.name }}
-          tool: Trivy
-          file: trivy-client.sarif
           scan_type: SARIF
           product_name: ${{ github.event.repository.name }}
           description: "Projeto de teste no DefectDojo"
