@@ -268,7 +268,7 @@ jobs:
   docker-build:
     needs: [versioning, build-and-test-server, build-and-test-client, sast, sca, iac]
     runs-on: ubuntu-latest
-    name: Build Docker Image
+    name: Build Docker Images
 
     env:
       version: ${{ needs.versioning.outputs.version }}
@@ -323,15 +323,15 @@ jobs:
           docker load -i server.tar
           docker load -i client.tar
 
-          - name: Run Trivy Scan - Server
-          uses: aquasecurity/trivy-action@master
-          with:
-            scan-type: 'image'
-            image-ref: '${{ vars.DOCKERHUB_REPOSITORY }}/articly-server:${{ env.version }}'
-            severity: 'MEDIUM,HIGH,CRITICAL'          
-            format: 'sarif'          
-            output: 'trivy-server.sarif'
-            exit-code: '0'
+      - name: Run Trivy Scan - Server
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'image'
+          image-ref: '${{ vars.DOCKERHUB_REPOSITORY }}/articly-server:${{ env.version }}'
+          severity: 'MEDIUM,HIGH,CRITICAL'          
+          format: 'sarif'          
+          output: 'trivy-server.sarif'
+          exit-code: '0'
   
       - name: Run Trivy Scan - Client
         uses: aquasecurity/trivy-action@master
