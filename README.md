@@ -42,6 +42,9 @@ O Articly foi projetado para atender às necessidades de equipes e criadores de 
   - Vue.js
   - BootstrapVue
 
+- **Conteinerização**
+  - Docker
+
 - **Logs e Monitoramento**
   - Prometheus
   - Grafana
